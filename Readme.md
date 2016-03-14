@@ -54,6 +54,7 @@ Once the project is built, you will need to add it to the MAT Provider configura
    ```
 
 To test the provider after it is built and configured:
+
 1. Create a MAT enabled project using en-US as the source language
 2. Add the source string "Do you want to save changes?"
 3. Added fr-FR as the target language.
@@ -68,9 +69,11 @@ That should get you working.
 If you compile using Debug configuration, a log file is created here: `C:\\Users\\*user_name*\\AppData\\Local\\Temp\\SYSTRAN.TranslationProvider.log`
 
 **Q**: How can I tell if the provider is loaded?
+
 **A**: The quickest way is to ensure the provider is listed first in the configuration file as the editor only displays the first supported provider's image based on language pairs (e.g.: en-US -> fr-FR).
 
 **Q**: Everything is installed, but the provider is not loading
+
 **A**: The provider needs to be compiled against the same build as the Microsoft.Multilingual.Translation.dll installed on your system. If you try to translate a resource, the load error will be displayed in the Editor Message tab or in  Visual Studio's output panel. The message should provide the details of the error.
 
 ##Additional information
