@@ -23,7 +23,7 @@ If you are targeting a different build of MAT, you will need to build against th
 
 ##How to install
 
-You need to install MAT it first to be able to build this solution.
+You need to first install MAT to be able to build this solution.
 
 Once the project is built, you will need to add it to the MAT Provider configuration files. Following the steps below will enable this provider with your MAT 4.0 installation:
 
